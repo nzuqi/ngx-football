@@ -1,0 +1,14 @@
+:root {
+    --bg_primary: #f3f4f7;
+    --bg_secondary: #ffffff;
+
+    --border_primary: #eceef0;
+    --border_active: #623cea;
+    --border_active_hover: #4a2fac;
+
+    --menu_primary: #caced3;
+    --menu_hover: #a3a5a8;
+    
+    --link_active: #623cea;
+    --link_active_hover: #4a2fac;
+}
