@@ -2,6 +2,8 @@
     --bg_primary: #f3f4f7;
     --bg_secondary: #ffffff;
 
+    --scroll_bar: #5a5e63;
+
     --border_primary: #eceef0;
     --border_active: #623cea;
     --border_active_hover: #4a2fac;
@@ -11,4 +13,8 @@
     
     --link_active: #623cea;
     --link_active_hover: #4a2fac;
+
+    --top_menu_primary: #a3a5a8;
+    --top_menu_hover: #87898b;
+    --top_menu_active: #76787a;
 }
