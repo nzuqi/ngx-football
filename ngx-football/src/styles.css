@@ -83,11 +83,13 @@ a.bg-light:focus, a.bg-light:hover, button.bg-light:focus, button.bg-light:hover
 }
 
 .border-bottom {
-    border-bottom: 2px solid var(--border_primary)!important;
+    border-bottom-color: var(--border_primary) !important;
+    border-bottom-width: 2px!important;
 }
 
 .border-right {
-    border-right: 2px solid var(--border_primary)!important;
+    border-right-color: var(--border_primary) !important;
+    border-right-width: 2px!important;
 }
 
 #page-content-wrapper {
