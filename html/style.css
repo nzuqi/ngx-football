@@ -57,6 +57,14 @@ a.bg-light:focus, a.bg-light:hover, button.bg-light:focus, button.bg-light:hover
   transition: width .25s ease-out;
 }
 
+#wrapper.toggled #sidebar-wrapper #menu-toggle .logo {
+    display: block;
+}
+
+#wrapper.toggled #sidebar-wrapper #menu-toggle .logo {
+    display: none;
+}
+
 .list-group-item {
     border: none;
     padding: 0.5rem 1.25rem;
@@ -84,6 +92,12 @@ a.bg-light:focus, a.bg-light:hover, button.bg-light:focus, button.bg-light:hover
 
 #page-content-wrapper {
   min-width: 100vw;
+}
+
+.logo {
+    width:90px;
+    margin:11px 0 0 10px;
+    position: absolute;
 }
 
 #wrapper.toggled #sidebar-wrapper {
