@@ -472,3 +472,170 @@ a.bg-light:focus, a.bg-light:hover, button.bg-light:focus, button.bg-light:hover
 .standings .more i:hover{
     color:var(--border_active);
 }
+.last-games {
+    float: left;
+    width: 100%;
+    border-radius: 8px;
+    border: 2px solid var(--border_primary);
+    padding: 0px;
+    margin-top: 6px;
+    font-size: 12px;
+}
+.last-games .headr {
+    width: 100%;
+    float: left;
+    border-bottom: 2px solid var(--border_primary);
+    color: var(--top_menu_primary);
+}
+.last-games .headr .team {
+    width: 49.5%;
+    display:inline-block;
+    padding: 6px 12px;
+    font-weight: 600;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    text-align:center;
+}
+.last-games .headr .team span.actv {
+    color: var(--border_active);
+    /* font-weight: 900; */
+}
+.last-games .headr .team img {
+    width: 22px;
+    margin-right:5px;
+}
+.last-games .headr .hdvdr {
+    width: 1%;
+    display:inline-block;
+    height:20px;
+    margin-top: 12px;
+    border-right:2px solid var(--border_primary);
+}
+.last-games .game-rw {
+    width: 100%;
+    float: left;
+    border-bottom: 2px solid var(--border_primary);
+    padding: 16px 6px;
+    font-weight:400;
+    font-size: 11px;
+}
+.last-games .game-rw .pre,
+.last-games .game-rw .suff {
+    width: 10%;
+    float: left;
+    color: var(--top_menu_primary);
+    padding: 0px 6px;
+}
+.last-games .game-rw .match {
+    width: 80%;
+    float: left;
+}
+.last-games .game-rw .match .m-team {
+    width: 41%;
+    float: left;
+    font-weight:600;
+    text-align: center;
+    padding: 0px 6px;
+}
+.last-games .game-rw .match .m-team.h-team {
+    text-align: right;
+}
+.last-games .game-rw .match .m-team.a-team {
+    text-align: left;
+}
+.last-games .game-rw .match .m-team img {
+    height: 14px;
+}
+.last-games .game-rw .match .m-score {
+    width: 14%;
+    float: left;
+    text-align: center;
+    font-weight: 900;
+    color: var(--top_menu_primary);
+}
+.last-games .game-rw .suff span {
+    font-size: 50px;
+    color: var(--top_menu_primary);
+    line-height: 0;
+    margin-top:6px;
+    float: left;
+}
+.last-games .game-rw .suff span.won {
+    color: green;
+}
+.last-games .game-rw .suff span.lost {
+    color: red;
+}
+.last-games .ftr-rw {
+    width: 100%;
+    float: left;
+    padding: 12px 6px;
+    font-weight:600;
+    font-size: 14px;
+    cursor: pointer;
+    text-align: center;
+    color: var(--top_menu_primary);
+}
+.team-line-ups {
+    padding:100px 6px;
+    text-align: center;
+    color: var(--top_menu_primary);
+    font-size:11px;
+}
+.live-match {
+    width: 100%;
+    background: #fff;
+    height: 200px;
+    float: left;
+    margin-top:15px;
+    border-radius: 10px;
+    border: 2px solid var(--border_primary);
+}
+.live-match .hdr {
+    width: 100%;
+    float:left;
+    border-bottom: 2px solid var(--border_primary);
+    padding:15px;
+}
+.live-match .hdr .live-indicator {
+    width: 15%;
+    float:left;
+}
+.live-match .hdr .live-actions {
+    width: 15%;
+    float:left;
+}
+.live-match .hdr .live-title {
+    width: 70%;
+    float:left;
+}
+.live-match .hdr .live-indicator .live {
+    padding: 2px 6px;
+    background: rgb(255, 218, 218);
+    color: #f51414;
+    border-radius: 4px;
+    font-size:12px;
+    float:left;
+    font-weight:900;
+}
+.live-match .hdr .live-indicator .live span {
+    font-size: 40px;
+    line-height: 0;
+    margin-top:6px;
+    margin-right:2px;
+    float:left;
+}
+.live-match .hdr .live-title {
+    padding: 2px 6px;
+    font-size:14px;
+    text-align:center;
+    font-weight:900;
+}
+.live-match .hdr .live-actions i.mdi {
+    font-size:22px;
+    text-align:right;
+    font-weight:900;
+    color: var(--border_primary);
+    line-height: 0;
+    margin-left:12px
+}
